@@ -352,7 +352,12 @@
   /* RESPONSIVE */
   @media (max-width: 768px) {
     .hero-inner { grid-template-columns: 1fr; }
-    .hero-card { display: none; }
+    /* .hero-card { display: none; } */
+   .hero-card {
+    display: block;
+    max-width: 300px;
+    margin: 2rem auto 0;
+}
     .about-grid { grid-template-columns: 1fr; }
     .projects-grid { grid-template-columns: 1fr; }
     .skills-grid { grid-template-columns: 1fr 1fr; }
